@@ -1,0 +1,7 @@
+{
+  "leaderboardSheetName": "Leaderboard",
+  "teamsRange": "E6:E12",
+  "pointsRange": "F6:G12",
+  "announcementCronExpression": "*/5 * * * *",
+  "announcementDelay": 5000
+}
