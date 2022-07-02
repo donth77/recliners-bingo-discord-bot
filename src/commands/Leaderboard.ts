@@ -18,7 +18,7 @@ export const Leaderboard: Command = {
     if (leaderboardResult) {
       const { teamNames, teamPts } = leaderboardResult;
       for (let i = 0; i < teamNames.length; i++) {
-        responseStr += `${i + 1}. ${teamNames[i]}`;
+        responseStr += `**${i + 1}.** ${teamNames[i]}`;
         if (i < teamPts.length) {
           responseStr += ` - ${teamPts[i]}`;
         }

@@ -10,3 +10,7 @@ export type LeaderboardResult = {
   teamNames: Array<string>;
   teamPts: Array<number>;
 };
+
+export type LeaderboardDocData = {
+  points: number | null;
+};
